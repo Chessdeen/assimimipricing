@@ -1,0 +1,3527 @@
+/* Reset some default styling */
+body, ul {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.desktop {
+
+    /* Desktop - 8 */
+
+/* Auto layout */
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: relative;
+width: 1440px;
+height: 5552.81px;
+/*overflow-y: scroll;*/
+
+background: #FFFFFF;
+border-radius: 8px;
+
+
+}
+
+.mainhead {
+    /* first page */
+
+width: 1440px;
+height: 920px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+
+.frame241 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%; /* Full width */
+    padding: 0px;
+    width: 342px;
+    height: 152px;
+}
+
+
+
+.qoptions1, .qoptions2, .qoptions3, .qanswer {
+    display: flex;
+    justify-content: flex-start; /* Center the text horizontally */
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 100%; /* Full width */
+    height: 32px;
+    background: #FFFFFF;
+    border: 0.6px solid #F1F0EE;
+    box-shadow: 0px 1px 0px #E1DFDB;
+    border-radius: 8px;
+}
+
+/* Custom styling for the correct answer */
+.qanswer {
+    background: rgba(210, 122, 36, 0.2);
+    border: 1.6px solid #F2D89F;
+    box-shadow: 0px 1px 0px #D27A24;
+}
+
+.qoptiontext {
+    /* A. Her beautiful garden */
+
+    width: 146px;
+    height: 16px;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    color: #3C1F0E;
+    
+    
+    
+}
+
+.qoptiontext1 {
+/* B. Her ability to grow giant vegetables */
+
+width: 235px;
+height: 16px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #3C1F0E;
+
+
+
+}
+
+.qoptiontext2 {
+/* C. Her kindness and wisdom */
+
+width: 178px;
+height: 16px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #D27A24;
+
+
+
+}
+
+.qoptiontext3 {
+    /* D. Her love for animals */
+
+width: 144px;
+height: 16px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #3C1F0E;
+
+
+
+}
+
+.frame361 {
+    /* Frame 361 */
+    display: flex;
+    flex-direction: column; /* Align h5 above boardopt */
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 24px;
+    width: 100%; /* Full width to center within parent */
+    height: auto; /* Adjust height dynamically */
+}
+
+
+.boardcardh5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #A7A49E;
+    margin-bottom: 10px; /* Space between heading and boardopt */
+}
+
+
+
+
+.waec {
+    /* Frame 333 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 128px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.jamb {
+    /* Frame 334 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 125px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.neco {
+    /* Frame 335 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 125px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.boardopt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    opacity: 0.34;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    position: relative;
+   
+    /* Frame 302 */
+
+width: 1440px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+}
+
+/* Logo styling */
+.navbar__logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    /* Frame 309 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+position: absolute;
+width: 106px;
+height: 29px;
+left: 108px;
+top: calc(50% - 29px/2 + 0.5px);
+
+
+}
+
+/* Center navigation links */
+.navbar__nav {
+    list-style: none;
+    /* Frame 305 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 226px;
+height: 23px;
+left: calc(50% - 226px/2);
+top: calc(50% - 23px/2 + 0.5px);
+
+
+}
+
+.navbar__nav li {
+    /* Home */
+
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #5C5F70;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.navbar__nav a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    /* Home */
+
+width: 41px;
+height: 23px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #5C5F70;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.navbar__nav a:hover {
+    color: #007bff;
+}
+
+
+
+.contact {
+    width: 73px;
+height: 23px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+text-align: center;
+
+color: #5C5F70;
+}
+
+/* Right side: Sign Up and Log In */
+.navbar__auth {
+    
+    /* Frame 313 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 164px;
+height: 39px;
+left: 1092px;
+top: calc(50% - 39px/2 + 0.5px);
+
+
+}
+
+/* Sign Up Button */
+.navbar__signup {
+    text-decoration: none;
+    background-color: #D27A24;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 1rem; /* Added margin to create space */
+
+
+/* Sign In */
+
+width: 48px;
+height: 23px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+/* identical to box height, or 22px */
+
+color: #FDF9EF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+    
+}
+
+.navbar__signup:hover {
+    background-color: #0056b3;
+}
+
+/* Log In Text */
+.navbar__login {
+    text-decoration: none;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    /* identical to box height, or 22px */
+    
+    color: #D27A24;
+    
+}
+
+/* Mobile styles */
+.navbar__toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar__nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #f8f9fa;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar__nav.active {
+        display: flex;
+    }
+
+    .navbar__nav li {
+        margin: 0.5rem 0;
+    }
+
+    .navbar__auth {
+        display: none; /* Hiding auth links on mobile, will display in the toggle */
+    }
+
+    .navbar__toggle {
+        display: block;
+    }
+}
+
+/* General Header Styles */
+header {
+  text-align: left;
+}
+
+.header-div {
+/* Group 6 */
+
+position: absolute;
+width: 894px;
+height: 236px;
+left: 108px;
+top: 96px;
+
+
+
+}
+
+.header-title {
+  /* Study Smarter, Not Harder */
+
+width: 894px;
+height: 96px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 150%;
+/* identical to box height, or 96px */
+
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.smarter-text {
+  position: relative;
+}
+
+.smarter-text::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background: url('spiral-line.svg') no-repeat;
+  background-size: contain;
+  bottom: -10px;
+  left: 0;
+}
+
+.logo {
+    background: url('../img/logo.svg') no-repeat;
+ 
+  }
+
+.harder-text {
+  color: grey;
+}
+
+/* Subtitle */
+.header-subtitle {
+
+  /* With personalized study plans, practice questions, and expert guidance. */
+
+width: 894px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #5C5F70;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+/* Buttons and Actions */
+.header-actions {
+
+/* Frame 470 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 458px;
+height: 46px;
+
+
+
+
+}
+
+.site-btn {
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  /* Frame 305 */
+
+
+
+width: 271px;
+height: 46px;
+
+background: #D27A24;
+border-radius: 8px;
+
+
+
+}
+
+.download-link {
+  text-decoration: none;
+
+  /* or Download on Store */
+
+width: 155px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #D27A24;
+
+
+
+}
+
+
+
+.frame358 {
+    
+ /* Frame 358 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: flex-start; /*  */
+    padding: 40px 32px;
+    gap: 16px;
+    position: absolute;
+    width: 428px;
+    height: 358px;
+    left: 108px;
+    top:  432px;
+    /* transform: translate(-50%, -50%); Align with center */
+    background: #FDF9EF;
+    border-radius: 24px;
+}
+
+.question {
+    width: 342px; /* Full width */
+    height: 48px;
+    text-align: flex-start; /* Text left */
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4D4D4D;
+}
+
+.practest {
+    width: 364px; /* Adjust to fill the parent width */
+    height: 36px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #3C1F0E;
+}
+
+
+.frame353 {
+     /* Frame 353 */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    /* align-items: flex-start; */
+     align-items: center; /*Center the content horizontally */
+    padding: 8px;
+    gap: 10px;
+    /* width: 100%; */
+    width: 400px;
+    height: 250px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60.9px rgba(204, 204, 204, 0.56);
+    border-radius: 8px;
+}
+
+.frame353 h2 {
+  color: #ffffff;
+}
+
+.frame353 ul {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  list-style-type: none;
+}
+
+.frame353 li {
+  margin-bottom: 10px;
+}
+
+.frame380 {
+
+    /* Frame 380 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px 108px;
+gap: 64px;
+
+width: 100%; /* Full width to center within parent */
+/* height: 1225.31px; */
+
+
+
+}
+
+.frame381 {
+    /* Frame 381 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 100%; /* Full width to center within parent */
+/* height: auto; Adjust height dynamically */
+height: 177.31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame382 {
+    /* Frame 382 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+
+width: 100%;
+/* width: 305.8px; */
+height: 65.31px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.foryouh5 {
+    /* What’s in it for you? */
+
+    width: 182px;
+    height: 30px;
+    
+    font-family: 'Georgia';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    text-align: center;
+    
+    color: #4D4D4D;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.youcurve {
+    /* curved line */
+
+width: 242px;
+height: 4.27px;
+
+border-radius: 68px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.youp {
+    /* With premium access to our tools and services, you get to enjoy */
+
+    width: 664px;
+    height: 96px;
+    
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+    text-align: center;
+    
+    color: #4D4D4D;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+}
+
+.frame379 {
+    
+    /* Frame 379 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 1224px;
+height: 824px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+.frame364 {
+    /* Frame 364 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px;
+gap: 32px;
+
+width: 392px;
+height: 824px;
+background: #FDF9EF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.frame368 {
+    /* Frame 368 */
+
+/* Auto layout */
+/*display: flex;*/
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 8px;
+
+width: 392px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame378 {
+
+    /* Frame 378 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 808px;
+height: 824px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.frame377 {
+  
+    /* Frame 377 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 808px;
+height: 400px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame365 {
+   
+    /* Frame 365 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 16px;
+gap: 8px;
+
+width: 380px;
+height: 350px;
+
+background: #FDF9EF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.frame368i {
+    /* Frame 368i */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 360px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame368ih5 {
+    /* Performance Insights */
+
+width: 360px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame368ip {
+    /* With precise insights into your performance, you can see how your skills are improving. Understand your strengths and areas for improvement. */
+
+width: 360px;
+height: 60px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame367 {
+  
+   /* Frame 367 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 16px;
+gap: 8px;
+
+width: 380px;
+height: 350px;
+
+background: #FDF9EF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.frame3677 {
+/* Frame 367 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px 16px;
+gap: 10px;
+
+width: 808px;
+height: 350px;
+
+background: #FDF9EF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+}
+
+
+
+
+.frame364h5 {
+/* Self paced learning */
+
+width: 158px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame364p {
+/* With a vast collection of practice questions at your disposal, you may get started straight away. No warm-up required! */
+
+width: 360px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.group14 {
+    /* Group 14 */
+
+/*width: 482.79px;*/
+height: 549.28px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame376 {
+    /* Frame 376 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+padding: 24px;
+gap: 32px;
+
+/*position: absolute;*/
+width: 346px;
+height: 487px;
+left: 36.63px;
+top: 152px;
+
+background: rgba(255, 255, 255, 0.54);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 32px;
+transform: rotate(3.89deg);
+
+}
+
+.frame375 {
+    /* Frame 375 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 298px;
+height: 163px;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame202 {
+    /* Frame 202 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 233px;
+height: 41px;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame202h5 {
+    /* Select Test Duration */
+
+width: 168px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame202p {
+    /* Choose the time you'd like to test your knowledge in. */
+
+width: 233px;
+height: 15px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+color: #6F6F6F;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame229 {
+    /* Frame 229 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 298px;
+height: 106px;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame212 {
+/* Frame 212 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 81px;
+height: 30px;
+
+background: #A7A7A7;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame220 {
+    /* Frame 220 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 80px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame218 {
+    /* Frame 218 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 81px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.frame219 {
+    /* Frame 219 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 80px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.frame209 {
+    /* Frame 229 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 79px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+.frame230 {
+    /* Frame 230 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 78px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+}
+
+.frame231 {
+    /* Frame 231 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 81px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+}
+
+.span212 {
+    /* 00:30 */
+
+width: 33px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.span220 {
+    /* 00:45 */
+
+width: 32px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.span218 {
+/* 00:50 */
+
+width: 33px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.span219 {
+/* 01:00 */
+
+width: 32px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.span229 {
+/* 01:30 */
+
+width: 31px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.span230 {
+/* 01:45 */
+
+width: 30px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.span231 {
+/* 02:00 */
+
+width: 33px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame234 {
+   /* Frame 364 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px;
+gap: 32px;
+
+width: 392px;
+/*height: 824px;*/
+
+background: #FDF9EF;
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.frame2300 {
+    /* Frame 230 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 252px;
+height: 41px;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame230span1 {
+    /* Select Difficulty Level */
+
+width: 179px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 18px;
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame230span2 {
+    /* Choose the difficulty you'd like to test your knowledge in. */
+
+width: 252px;
+height: 15px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 150%;
+/* identical to box height, or 15px */
+
+color: #6F6F6F;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame235 {
+    /* Frame 235 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 298px;
+height: 87px;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame2311 {
+    /* Frame 231 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 298px;
+height: 30px;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame2200 {
+    /* Frame 220 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 63px;
+height: 30px;
+
+background: #A7A7A7;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame221 {
+    /* Frame 221 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 24px;
+gap: 10px;
+
+width: 68px;
+height: 30px;
+
+background: #F0F0F0;
+border-radius: 16px;
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+}
+
+.span221 {
+/* 100 */
+
+width: 20px;
+height: 14px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+color: #757575;
+
+transform: rotate(3.89deg);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.frame461 {
+    /* Frame 461 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px 108px;
+gap: 30px;
+
+width: 1440px;
+height: 949.96px;
+
+background: #FFFFFF;
+
+
+}
+
+
+.frame381 {
+    /* Frame 381 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+width: 776px;
+
+}
+
+.frame3822 {
+    /* Frame 382 */
+    position: relative;
+    text-align: center; /* Center the text and image horizontally */
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+
+width: 263.83px;
+
+
+}
+
+.frame382text {
+    /* Our Features */
+
+width: 119px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+text-align: center;
+
+color: #4D4D4D;
+
+}
+
+.frame382text2 {
+    /* With premium access to our tools and services, you get to enjoy */
+
+width: 664px;
+height: 96px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+text-align: center;
+
+color: #4D4D4D;
+
+
+
+}
+
+.frame3588 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start; /* Align the iPhone to the left */
+    padding: 20px; /* Add padding around the container if needed */
+}
+
+.iPhone {
+    position: flex-start;
+    width: 354px;
+    height: 698px;
+    background: url('assets/img/iPhone15Pro.png') no-repeat center center; /* Use the iPhone image as background */
+    background-size: cover; /* Cover the div with the iPhone image */
+    border-radius: 20px; /* Optional: add rounded corners */
+}
+
+.iPhone-line {
+    position: absolute;
+    bottom: 10px; /* Adjust the spacing from the bottom */
+    left: 282px;
+    height: auto;
+    top: 582.72px;
+}
+
+.frame384 {
+    /* Frame 384 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px 0px;
+gap: 64px;
+
+width: 1440px;
+/* height: 601.53px; */
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame3811 {
+    /* Frame 3811 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 776px;
+height: 73.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3820 {
+    /* Frame 3820 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px 32px;
+
+width: 408.71px;
+height: 73.53px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3820text {
+    /* Why students love ASSIMIMI */
+
+width: 265px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: italic;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+text-align: center;
+
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame5120 {
+    /* Frame 5120 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+width: 1154px;
+height: 304px;
+
+
+
+
+}
+
+.frame5100 {
+    /* Frame 5100 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1154px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame5110 {
+    /* Frame 5110 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 958px;
+height: 136px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame3870 {
+/* Frame 387 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 32px;
+
+width: 471px;
+height: 136px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 1px 2px rgba(216, 216, 216, 0.3), 0px 1px 3px 1px rgba(216, 216, 216, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.frame3870text {
+    /* With precise insights into your performance, you can see how your skills are improving. Understand your strengths and areas for improvement. */
+
+width: 439px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #7A7A7A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.frame3888 {
+    /* Frame 388 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 32px;
+
+width: 471px;
+height: 136px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 1px 2px rgba(216, 216, 216, 0.3), 0px 1px 3px 1px rgba(216, 216, 216, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame3888text {
+    /* With precise insights into your performance, you can see how your skills are improving. Understand your strengths and areas for improvement. */
+
+width: 439px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #7A7A7A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+
+.frame3890 {
+    /* Frame 3890 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 32px;
+
+width: 471px;
+height: 136px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 1px 2px rgba(216, 216, 216, 0.3), 0px 1px 3px 1px rgba(216, 216, 216, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3900 {
+    /* Frame 3900 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 32px;
+
+width: 471px;
+height: 136px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 1px 2px rgba(216, 216, 216, 0.3), 0px 1px 3px 1px rgba(216, 216, 216, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame3900text {
+    /* With precise insights into your performance, you can see how your skills are improving. Understand your strengths and areas for improvement. */
+
+width: 439px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #7A7A7A;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3880 {
+    /* Frame 3880 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+gap: 32px;
+
+width: 471px;
+height: 136px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+box-shadow: 0px 1px 2px rgba(216, 216, 216, 0.3), 0px 1px 3px 1px rgba(216, 216, 216, 0.15);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.frame3880text {
+
+    /* With precise insights into your performance, you can see how your skills are improving. Understand your strengths and areas for improvement. */
+
+width: 439px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #7A7A7A;
+
+
+
+}
+
+.frame4650 {
+    /* Frame 4650 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 131px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame3890text {
+    /* With precise insights into your performance, you can see how your skills are improving. Understand your strengths and areas for improvement. */
+
+width: 439px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #7A7A7A;
+
+}
+.frame3890name {
+    /* John Afolabi */
+
+width: 91px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.ellipse18 {
+   /* Ellipse 18 */
+
+width: 32px;
+height: 32px;
+
+background: #E8E8E8;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.frame460 {
+    /* Frame 460 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 160px 108px;
+gap: 108px;
+
+width: 1440px;
+/* height: 834px; */
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+}
+
+.frame3810 {
+    /* Frame 3810 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 240px;
+
+width: 389px;
+height: 514px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame404 {
+    /* Frame 404 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 704px;
+height: 514px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame403 {
+    /* Frame 403 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+gap: 24px;
+
+width: 704px;
+height: 138px;
+
+border-bottom: 0.4px solid #5C5C5C;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame3899 {
+/* Frame 3899 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 648px;
+height: 106px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+}
+
+.frame3899head {
+    /* What kind of information do you collect during sign-up? */
+
+width: 614px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame3899text {
+    /* We collect essential information to personalize your learning experience. This includes your name, email address, educational level, preferred exam types (optional), and school (optional). We respect your privacy and ensure your data is handled securely. */
+
+width: 648px;
+height: 72px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #848484;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame391 {
+    /* Frame 391 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+gap: 24px;
+
+width: 704px;
+height: 62px;
+
+border-bottom: 0.4px solid #4A321F;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame402 {
+    /* Frame 402 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+gap: 24px;
+
+width: 704px;
+height: 62px;
+
+border-bottom: 0.4px solid #4A321F;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame4040 {
+    /* Frame 4040 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+gap: 24px;
+
+width: 704px;
+height: 62px;
+
+border-bottom: 0.4px solid #4A321F;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame405 {
+    /* Frame 405 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+gap: 24px;
+
+width: 704px;
+height: 62px;
+
+border-bottom: 0.4px solid #4A321F;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame513 {
+    /* Frame 513 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 389px;
+height: 158.27px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame513text {
+    /* Frequently asked questions? */
+
+width: 389px;
+height: 120px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 150%;
+/* or 60px */
+
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame459 {
+    /* Frame 459 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 233px;
+height: 92px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame459text {
+    /* Have more questions? */
+
+width: 229px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #4D4D4D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame306 {
+    /* Frame 306 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 0px;
+gap: 16px;
+
+width: 233px;
+height: 46px;
+
+border-radius: 32px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame306text {
+    /* Send us a mail */
+
+width: 129px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #D27A24;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame450 {
+    /* Frame 450 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 80px 108px;
+gap: 32px;
+
+width: 1440px;
+height: 457px;
+
+background: #FAD6BB;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame476 {
+    /* Frame 476 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 470px;
+height: 246px;
+
+
+
+}
+
+.frame88 {
+    /* Rectangle 88 */
+
+width: 667px;
+height: 297px;
+
+background: rgba(255, 255, 255, 0.65);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame305 {
+    /* Frame 305 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 40px;
+gap: 10px;
+
+width: 298px;
+height: 46px;
+
+background: #D27A24;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.frame476head {
+    /* Unlock resources to boost your performance! */
+
+width: 470px;
+height: 96px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+text-transform: capitalize;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame476text {
+    /* Welcome to a world of knowledge and join our thriving community of high achievers. Together, let us conquer your academic goals. */
+
+width: 470px;
+height: 40px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 150%;
+/* or 20px */
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame305btn {
+    /* Download Now for Free! */
+
+width: 218px;
+height: 30px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* identical to box height, or 30px */
+
+color: #F8F0EB;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame473 {
+    /* Frame 473 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 80px 108px;
+gap: 64px;
+
+width: 1440px;
+/* height: 373px; */
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+flex: none;
+order: 8;
+flex-grow: 0;
+
+}
+
+.frame507 {
+    /* Frame 507 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 96px;
+
+width: 1500px;
+height: 125px;
+
+
+}
+
+.frame478 {
+    /* Frame 478 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 255px;
+height: 125px;
+
+
+}
+
+.frame485 {
+    /* Frame 485 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 100px;
+
+width: 555px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame506 {
+    /* Frame 506 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 204px;
+height: 69px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame477 {
+    /* Frame 477 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 120px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame309 {
+    /* Frame 309 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 106px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame306 {
+    /* Frame 306 */
+
+width: 16px;
+height: 29px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame484 {
+    /* Frame 484 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 103px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame484text {
+    /* ASSIMIMI */
+
+width: 78px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #B2B2B2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame479 {
+    /* Frame 479 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 71px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame479i {
+/* Product */
+
+width: 57px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame479ii {
+/* FAQ’s */
+
+width: 43px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.footertag {
+    /* Insert tagline or brand quote */
+
+width: 204px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #B2B2B2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.footertext {
+    /* Adjust the dimensions to better fit and center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Remove fixed width and height */
+    width: auto;
+    height: auto;
+
+    font-family: 'Georgia', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; /* Line height adjusted for readability */
+    
+    /* Center text horizontally */
+    text-align: center;
+
+    /* Text color */
+    color: #B2B2B2;
+
+    /* Remove unnecessary flex properties */
+    flex-grow: 0;
+}
+
+
+.frame483 {
+    /* Frame 483 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 128px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame483text {
+    /* Use Cases */
+
+width: 71px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+color: #B2B2B2;
+
+}
+
+.frame480 {
+    /* Frame 480 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 128px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame480stud {
+
+    /* For Students */
+
+width: 92px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame480guard {
+    /* For Guardians */
+
+width: 103px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame482 {
+    /* Frame 482 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+width: 124px;
+height: 120px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.frame482legal {
+    /* Legal */
+
+width: 39px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #B2B2B2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame481 {
+    /* Frame 481 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 124px;
+height: 64px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame481pp {
+/* Privacy Policy */
+
+width: 99px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame481t {
+
+    /* Terms of Use */
+
+width: 94px;
+height: 24px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+text-align: center;
+
+color: #4A321F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}

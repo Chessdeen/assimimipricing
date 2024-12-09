@@ -1,0 +1,473 @@
+.body {
+    max-width: 100%;
+}
+
+.navbar__toggle {
+    display: none;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #D27A24;
+    }
+
+
+    .navbar {
+    height: 60px;
+    background: #FFFFFF;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    }
+
+    .navdiv1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+    position: absolute;
+    width: 504px;
+    height: 40px;
+    right: 80px;
+    top: 10px;
+
+    }
+
+    .navbar__search-input {
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-right: 40px; /* Ensure space for the icon */
+    font-weight: 400;
+    font-style: normal;
+    color: #848484;
+    order: 1;
+    }
+
+    .navbar__search-button {
+    
+    background: none;
+    border: none;
+    cursor: pointer;
+    }
+
+
+    .navbar__search-icon {
+    width: 18px;
+    height: 18px;
+    }
+
+    .navbar__auth {
+    display: flex;
+    gap: 10px;
+    }
+
+    .button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 76px;
+    }
+
+    .button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 76px;
+    background: #D27A24;
+    border-radius: 8px;
+    text-decoration: none;
+    }
+
+
+    
+    .button-outline {
+    color: #D27A24;
+    border: 1px solid #D27A24;
+    width: 44px;
+    height: 23px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    }
+
+    
+
+    
+    .button-primary {
+    width: 48px;
+    height: 23px;
+
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #FDF9EF;
+    border: 1px solid #FDF9EF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    }
+    
+    .navbar__right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+
+    .navbar__left {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    
+    }
+    
+
+    .navbar__brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    }
+
+    .navbar__logo {
+    /* Frame 306 */
+    width: 16px;
+    height: auto;
+
+    }
+    .assimimi {
+    /* ASSIMIMI */
+
+    width: 78px;
+    height: 24px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    text-align: center;
+
+    color: #3C1F0E;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    }
+
+    .navbar__links {
+    /* navbar__links */
+
+    /* Auto layout */
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+
+    .navbar__link {
+    font-family: 'Georgia', serif;
+    text-decoration: none;
+    color: #5C5F70;
+    font-size: 14px;
+    }
+
+    .navbar__auth.center-nav-auth {
+        display: none;
+    }
+
+    /* Search Form */
+    .navbar__search-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    }
+    
+    .frame485 {
+        box-sizing: border-box;
+display: flex
+;
+flex-direction: row;
+align-items: center;
+padding: 8px 16px;
+gap: 10px;
+height: 40px;
+border: 1px solid #E8E8E8;
+border-radius: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+    }
+        /* Media Queries for Mobile Devices */
+    @media (max-width: 768px) {
+        body, html {
+margin: 0;
+padding: 0;
+}
+
+.frame485 { 
+width: 100%;
+}
+
+
+        .navbar {
+    height: 60px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    }
+
+    .navbar__left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    width: 100%;
+    height: 29px;
+    position: absolute;
+    left: 10px; 
+    top: 10px;
+
+    }
+
+
+.navbar__links {
+display: none;
+flex-direction: column;
+background-color: #fff;
+padding: 10px 0;
+z-index: 1;
+gap: 32px;
+position: absolute;
+top: 60px;
+left: 0;
+align-items: center;
+}
+
+.navbar__links.active {
+display: flex;
+flex-direction: column;
+background-color: #fff;
+padding: 20px;
+position: absolute;
+top: 60px;
+left: 10px;
+right: 10px;
+border-radius: 8px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+z-index: 10;
+height: 240px;
+}
+
+.navbar__auth {
+display: none;
+}
+
+.navbar__auth.center-nav-auth {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+height: 39px;
+flex: none;
+order: 1;
+flex-grow: 0;
+position: absolute;
+    top: 220px;
+}
+
+
+.navbar__links li {
+margin: 10px 0;
+}
+
+.navbar__auth {
+display: none;
+}
+
+.navbar__toggle {
+display: block;
+position: absolute;
+top: 5px;
+right: calc(5vw - 30px);
+}
+
+.navbar__right {
+flex-direction: column;
+position: absolute;
+top: 10px;
+left: 120px;
+padding: 10px 0;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 50%;
+    height: 40px;
+
+}
+
+.navbar__search-input {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 14px;
+    padding-right: 40px; /* Ensure space for the icon */
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+
+
+        .assimimi {
+    /* ASSIMIMI */
+
+    width: 70px;
+    height: 24px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    text-align: center;
+
+    color: #3C1F0E;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    }
+
+    .auth-button {
+padding: 8px 16px;
+border-radius: 8px;
+font-size: 15px;
+text-decoration: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 50%;
+    height: 39px;
+    }
+
+
+
+    .button-outline {
+    color: #D27A24;
+    border: 1px solid #D27A24;
+    width: 100px;
+    height: 23px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    }
+
+    
+  
+    .button2 {
+    /* Frame 311 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+
+    width: 50%;
+
+    border: 1px solid #FDF9EF;
+    border-radius: 8px;
+    }
+
+    .button-primary {
+    /* Sign In */
+
+    width: 100px;
+    height: 23px;
+
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    /* identical to box height, or 22px */
+
+    color: #FDF9EF;
+    background-color: #D27A24;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    }
+
+/* Ensure the search form fills the available width on mobile */
+.navbar__search-wrapper {
+width: 100%;
+}
+
+}

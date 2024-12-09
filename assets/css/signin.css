@@ -1,0 +1,510 @@
+.onboard {
+    /* onboarding */
+
+position: relative;
+width: 390px;
+height: 844px;
+
+background: #F0F0F0;
+border-radius: 8px;
+
+}
+
+.frame8 {
+    /* Frame 8 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 358px;
+height: 106px;
+left: calc(50% - 358px/2);
+top: calc(50% - 106px/2 - 299px);
+
+
+}
+
+.frame8h {
+    /* Sign in to your Account */
+
+width: 328px;
+height: 72px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 36px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame8t {
+    /* Create your account */
+
+width: 358px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #6F6F6F;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame7 {
+    /* Frame 7 */
+
+position: absolute;
+width: 390px;
+height: 636px;
+left: 0px;
+top: 208px;
+
+background: #FFFFFF;
+
+}
+
+.frame7t {
+    /* Don’t have an account? Register */
+
+position: absolute;
+width: 239px;
+height: 18px;
+left: calc(50% - 239px/2 - 0.5px);
+top: 511px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #A7A7A7;
+
+
+}
+
+.frame20 {
+    /* Frame 20 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 358px;
+height: 42px;
+left: 16px;
+top: 429px;
+
+
+}
+
+.frame19 {
+    /* Frame 19 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 10px;
+gap: 10px;
+
+width: 171px;
+height: 42px;
+
+border: 0.8px solid #A7A7A7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.goog {
+    /* Google */
+
+width: 50px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame18 {
+    /* Frame 18 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 10px;
+gap: 10px;
+
+width: 171px;
+height: 42px;
+
+border: 0.8px solid #A7A7A7;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.face {
+    /* Facebook */
+
+width: 68px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame21 {
+    /* Frame 21 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+width: 358px;
+height: 16px;
+left: 16px;
+top: 373px;
+
+
+}
+
+.frame17 {
+    /* Frame 17 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 10px;
+gap: 10px;
+
+position: absolute;
+width: 358px;
+height: 51px;
+left: 16px;
+top: 282px;
+
+background: #EBEBEB;
+border-radius: 4px;
+
+}
+
+.frame22 {
+    /* Frame 22 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 358px;
+height: 206px;
+left: 16px;
+top: 36px;
+
+
+}
+
+.login {
+    /* Or login with */
+
+width: 82px;
+height: 16px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #A7A7A7;
+ 
+
+}
+
+.signin {
+    /* Sign In */
+
+width: 64px;
+height: 23px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height */
+
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.frame16 {
+    /* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 358px;
+height: 156px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.forg {
+    /* Forgot Password? */
+
+width: 127px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #A7A7A7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.frame13 {
+    /* Frame 13 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 358px;
+height: 66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame15 {
+    /* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 358px;
+height: 66px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.email {
+    /* Email Address */
+
+width: 358px;
+height: 16px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #A7A7A7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frame11 {
+    /* Frame 11 */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 10px;
+gap: 10px;
+
+width: 358px;
+height: 42px;
+
+border: 0.6px solid #A7A7A7;
+border-radius: 4px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+}
+
+.frede {
+    /* Frederick Omotosho */
+
+width: 246px;
+height: 18px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+
+color: #212121;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.passw {
+    /* Password */
+
+width: 358px;
+height: 16px;
+
+font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+color: #A7A7A7;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+}
